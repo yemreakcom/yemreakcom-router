@@ -1,5 +1,14 @@
-# 🔗 YRouter
+<!doctype html>
+<html>
 
-🤵 Yunus Emre Ak'ın kişisel web sitesine yönlendirir
+<head>
+    <script
+        type='text/javascript'>  var d = '<data:blog.url/>'; d = d.replace(/.*\/\/[^\/]*/, ''); location.href = 'https://lib.yemreak.com';</script>
+    <title>🤵 YEmreAk</title>
+</head>
 
-<script type='text/javascript'>  var d = '<data:blog.url/>'; d = d.replace(/.*\/\/[^\/]*/, ''); location.href = 'https://lib.yemreak.com';</script>
+<body>
+    <p>Yunus Emre Ak'ın <strong>kişisel</strong> web sitesi </p>
+</body>
+
+</html>
