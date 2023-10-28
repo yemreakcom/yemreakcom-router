@@ -43,8 +43,16 @@
         Yönlendiriliyorsunuz... Eğer yönlendirme otomatik olarak gerçekleşmezse, <a href="https://www.yemreak.com">tıklayın</a>.
     </div>
     <script type="text/javascript">
+        // Mevcut URL'den slug'ı al
+        var currentSlug = window.location.pathname;
+
+        // Yönlendirme yapılacak URL'i oluştur
+        var newBaseURL = "https://www.yemreak.com";
+        var newURL = newBaseURL + currentSlug;
+
+        // 2 saniye sonra oluşturulan yeni URL'e yönlendirme yap
         setTimeout(function(){
-            window.location.href = "https://www.yemreak.com"
+            window.location.href = newURL;
         }, 2000);
     </script>
 </body>
