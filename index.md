@@ -1,13 +1,51 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script
-        type='text/javascript'>  var d = '<data:blog.url/>'; d = d.replace(/.*\/\/[^\/]*/, ''); location.href = 'https://lib.yemreak.com';</script>
-    <title>🤵 YEmreAk</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1;url=https://www.yemreak.com">
+    <title>Yönlendirme</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+        .container {
+            text-align: center;
+            animation: fade 2s;
+        }
+        @keyframes fade {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .spinner {
+            border: 8px solid rgba(255, 255, 255, .3);
+            border-radius: 50%;
+            border-top: 8px solid #333;
+            width: 60px;
+            height: 60px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
 </head>
-
 <body>
-    <p>Yunus Emre Ak'ın <strong>kişisel</strong> web sitesi </p>
+    <div class="container">
+        <div class="spinner"></div>
+        Yönlendiriliyorsunuz... Eğer yönlendirme otomatik olarak gerçekleşmezse, <a href="https://www.yemreak.com">tıklayın</a>.
+    </div>
+    <script type="text/javascript">
+        setTimeout(function(){
+            window.location.href = "https://www.yemreak.com"
+        }, 2000);
+    </script>
 </body>
-
 </html>
